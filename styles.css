@@ -1,0 +1,425 @@
+/* Kristian Wu Xinyang */
+
+/* 1. Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/* Center elements */
+header,
+section,
+footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* 2. Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 95%
+}
+
+
+.logo img {
+  width: 50px;
+  vertical-align: middle;
+}
+
+.logo h1 {
+  display: inline;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+/* Active link style */
+nav a.current {
+  font-weight: bold;
+  color: #ff6600;
+}
+
+/* 3. Home page styles */
+#home {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#home h2 {
+  font-size: 36px;
+}
+
+#home p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #45a049;
+}
+
+/* 4. shop page styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.resource-container {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.resource-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resource-item h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.resource-item p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.cart-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.cart-title {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.cart-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cart-items li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-total {
+  font-size: 18px;
+  color: #333;
+  margin-top: 15px;
+}
+
+.cart-actions button {
+  margin-right: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #333;
+  margin-top: 30px;
+}
+
+h5 {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* 5. create-accout page styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.logo img {
+  width: 60px;
+  vertical-align: middle;
+}
+
+.logo h1 {
+  display: inline;
+  font-size: 28px;
+  margin-left: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 30px;
+  text-align: center;
+}
+
+form {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* 6. student-project page styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.project-container {
+  padding: 80px;
+}
+
+.project-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  margin-bottom: 50px;
+}
+
+.project-item h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.project-item p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #666;
+}
+
+/* 7. aboutUs, login page styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+
+header {
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+#about-us {
+  background-color: #fff;
+  padding: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 50px;
+  width: 85%;
+}
+
+#about-us h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+#about-us p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+}
+
+
+/* 8. Footer styles */
+footer {
+
+  margin-top: auto;
+  flex-shrink: 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 95%
+  
+}
+img {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border: 1px solid #ddd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+  nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+ .product {
+    width: 45%;
+  }
+
+ .nav-toggle {
+    display: block;
+    cursor: pointer;
+  }
+  nav ul {
+    display: none;
+  }
+  nav ul.show {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
