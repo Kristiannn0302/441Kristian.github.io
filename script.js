@@ -36,6 +36,13 @@ function login() {
     }
 }
 
+function logout() {
+    localStorage.removeItem('username');
+    localStorage.removeItem('password');
+    alert('Logged out successfully!');
+    window.location.href = 'login.html';
+}
+
 // Closing function
 function checkout() {
     const quantity = document.getElementById('quantity').value;
